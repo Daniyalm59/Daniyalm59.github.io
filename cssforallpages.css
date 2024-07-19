@@ -1,0 +1,160 @@
+footer {background-color: #111}
+footer a{color:white;}
+footer h2{ color: #00bff3}
+footer a:hover{color:grey;text-decoration: none}
+.textbox { 
+    border: 2px inset #00bff3; 
+    outline:0; 
+    height:30px; 
+    width: 275px; 
+  }
+body{background-color: #F8F8FF;  font-family: Times New Roman, Times, serif;}
+html {
+  scroll-behavior: smooth;
+}
+.logo-image{
+    width: 46px;
+    height: px;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+
+/*image hover effect in excercise section */
+
+  .hvrbox,
+.hvrbox * {
+  box-sizing: border-box;
+}
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.hvrbox img {
+  max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+  display: block;
+}
+.hvrbox .hvrbox-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 15px;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+  opacity: 1;
+}
+.hvrbox .hvrbox-text {
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+  font-size: 15px;
+  border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+  border-top: 1px solid rgba(179, 179, 179, 0.7);
+  margin-top: 5px;
+  padding-top: 2px;
+  display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+  display: block;
+}
+1.hvrbox,
+.hvrbox * {
+  box-sizing: border-box;
+}
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.hvrbox img {
+  max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+  display: block;
+}
+
+.hvrbox .hvrbox-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background:    rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 15px;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+  opacity: 1;
+}
+.hvrbox .hvrbox-text {
+  text-align: center;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+  font-size: 15px;
+  border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+  border-top: 1px solid rgba(179, 179, 179, 0.7);
+  margin-top: 5px;
+  padding-top: 2px;
+  display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+  display: block;
+}
+.img hover{ color: red}
+.button{font-size: 18px;font-family: Arial, Helvetica, sans-serif;height: 55px;line-height: 18px;background-color: #DC143C;border:1px solid #DC143C}
+.button:hover{color:black;background-color: white;transition: 0.9s}
+.a{color:#DC143C;text-decoration: none;font-family:Trattatello, fantasy;font-size: 18px}
+.a:hover{color: grey;text-decoration: none}
+     
+h4 a{color:#484E5B;text-decoration: none;font-size: 25px}
+h4 a:hover{color:#DC143C;text-decoration: none}
+div button{width:220px;font-size: 20px;font-family: Arial, Helvetica, sans-serif;;background-color: #DC143C;border-radius: 0.5px solid #DC143C;color: white}
+.buttons{width:220px;font-size: 20px;font-family: Arial, Helvetica, sans-serif;;background-color: #DC143C;border: 0.5px solid #DC143C;color: white;height: 40px}
+.buttons:hover{color:black;background-color: white;transition: 0.9s}
+button{  border-radius: 4px;
+}

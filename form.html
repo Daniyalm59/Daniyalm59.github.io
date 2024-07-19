@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ <!-- css font and stylesheet -->
+    <link href="footer.css" rel="stylesheet">
+    <!--navbar css-->
+    <link rel="stylesheet" type="text/css" href="navbrcss.css">
+    <!--Firstpagecss-->
+    <link rel="stylesheet" type="text/css" href="cssforallpages.css">
+      <!--Firstpagescript-->
+      <script src=jsforallpages.js ></script>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!--Nav links-->
+      <link rel="stylesheet" type="text/css" href="navbar/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="navbar/css/menu.css">
+    
+  <script type="text/javascript" src="navbar/js/jquery.js"></script>
+  <script type="text/javascript" src="navbar/js/function.js"></script>
+
+<script>
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="firstpagecss.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+ <!-------------custom css---------->
+
+<style type="text/css">@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form { max-width:800px; margin:50px auto; }
+/*for drop down*/
+select{
+width:100%;
+padding:10px;
+margin-top:5px;
+line-height:1;
+border-radius:5px;
+background-color:transparent;
+color:grey;
+font-size:20px;
+ border:2px solid #97DCBE;
+}
+select:focus { border:2px solid #CC4949; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #97DCBE;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+.submit {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#97DCBE;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }</style>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <!--navbar-->
+<div id="wrap">
+	<header  class="navbar-fixed-top">
+
+		<div class="inner relative">
+			<a class="logo" href="index.html"><div  class="logo-image"><img style="padding-top:10px"  src="logo.png" alt="fresh design web"></div></a>
+			<a id="menu-toggle"  href="#"><i class="icon-reorder"></i></a>
+			<nav  id="navigation">
+				<ul id="main-menu">
+					<li><a href="index.html">Home</a></li>
+					<li class="parent">
+						<a href="#">Services</a>
+						<ul class="sub-menu">
+							<li><a href="formen.html">For Man</a></li>
+							<li><a href="forwomen.html">For Women</a></li>
+							<li><a href="nutritionplan.html">Nutrition Plan</a></li>
+							
+						</ul>
+					</li>
+					<li><a href="projectgallery.html">Gallery</a></li>
+					<li><a href="facilities.html">Facilities</a></li>
+					<li><a href="ourbranches.html">Our Branches</a></li>
+					<li><a href="contactus/formpage.html">Contact us</a></li>
+				</ul>
+			</nav>
+			<div class="clear"></div>
+		</div>
+	</header>	
+</div> 
+<!--Nav End--><br><br><br>
+<!-------------------Membership--------------->
+<div class="container" style="background:rgb(30,30,40);;color: white">
+	<div class="row">
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>
+		<div  class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+			<h1 style="color: #97DCBE " align="center">Membership Form</h1>
+
+
+			<form>   
+     <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+  <input name="name" type="text" class="feedback-input" placeholder="First Name" />
+   </div>
+   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+  <input name="name" type="text" class="feedback-input" placeholder="Last Name" />
+  </div>
+ </div>
+  <input name="name" type="text" class="feedback-input" placeholder="Father Name" />
+  <input name="name" type="text" class="feedback-input" placeholder="Mobile No." />
+  <input name="name" type="email" class="feedback-input" placeholder="Email" />     
+  <input name="email" type="text" class="feedback-input" placeholder="Address" />
+   <input name="email" type="text" class="feedback-input" placeholder="CNIC No." />
+   <div class="row">
+    <div class=" col-md-6">
+     
+    
+      <select required id="inputState">
+        <option selected>Select Package</option>
+        <option>Off-Peak</option>
+         <option>Standard</option>
+          <option>Extra</option>
+       
+      </select>
+    </div>
+    <div class=" col-md-6">
+   
+      <select required id="inputState" >
+        <option selected>Select State</option>
+        <option>Sindh</option>
+         <option>Punjab</option>
+          <option>Balocistan</option>
+           <option>NWFP</option>
+            <option>Gilgit Baltistan</option>
+      </select>
+    </div>
+ 
+  </div><br>
+
+  <textarea name="text" class="feedback-input" placeholder="Write Something about yourself"></textarea>
+  <input class="submit" type="submit" value="SUBMIT"/>
+
+
+
+
+ 
+</form></div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"></div>
+	
+	</div>
+
+</div>
+<!----------------------Pricing Sec---------------------------------------->
+<!-- Container (Pricing Section) -->
+<div class="container-fluid">
+  <div  class="text-center">
+    <h2>Pricing</h2>
+    <h4>Choose a payment plan that works for you</h4>
+  </div>
+  <div class="row ">
+  	    <!-----------------------------First------------------------------>  
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+      <div  class="panel panel-default text-center">
+        <div  style="background-color:red" class="panel-heading">
+          <h1>Off-Peek</h1>
+        </div>
+        <div style="background-color: #E7EBE9;height:   310px;padding-top:  80px" class="panel-body">
+        	 <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  Assistance from licensed personal trainers</p>
+          <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i> Unlimited Gym Access</p>
+          <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  Daily Guided Workouts</p>
+          <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i> Access to all equipment</p>
+
+         
+         
+        </div>
+        <div style="background-color:#97DCBE" class="panel-footer">
+          <h3>2000 PKR</h3>
+          <h4>per month</h4>
+        
+        </div>
+      </div>      
+    </div>   
+    <!-----------------------------Second-------------------------------->  
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Standard</h1>
+        </div>
+        <div style="background-color: #E7EBE9;height: 310px;padding-top:  50px" class="panel-body">
+        
+             <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  Assistance from licensed personal trainers</p>
+                  <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i> Custom app helps you track statst</p>
+ 			<p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  6 Nutrition Coaching Sessions Annually</p>
+ 			<p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  Customized meal plans and body fat testing</p>
+ 			   <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i> Unlimited Gym Access</p>
+          <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  Daily Guided Workouts</p>
+          <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i> Access to all equipment</p>
+
+
+        </div>
+        <div style="background-color:#97DCBE;" class="panel-footer">
+          <h3>5000 PKR</h3>
+          <h4>per month</h4>
+        
+        </div>
+      </div>      
+    </div>      
+        <!-----------------------------Third-------------------------------->   
+    <div  class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+      <div   class="panel panel-default text-center">
+        <div  class="panel-heading">
+          <h1>Extra</h1>
+        </div>
+        <div style="background-color: #E7EBE9" class="panel-body">
+              <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  Assistance from licensed personal trainers</p>
+                  <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i> Custom app helps you track statst</p>
+ 			<p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  6 Nutrition Coaching Sessions Annually</p>
+ 			<p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  Customized meal plans and body fat testing</p>
+ 			   <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i> Unlimited Gym Access</p>
+          <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  Daily Guided Workouts</p>
+          <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i> Unlimited Semi-Personal Training</p>
+          <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  Monthly Nutrition Sessions</p>
+          <p style="border-bottom:1px solid #F5F5F5"> <i class="fas fa-check"></i>  Unlimited Body Fat Testing</p>
+
+        </div>
+        <div style="background-color:#97DCBE" class="panel-footer">
+          <h3>10000 PKR</h3>
+          <h4>per month</h4>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+
+
+<!-- Footer-->
+<div class="container-fluid">
+<footer>
+              <form >
+                        <div style="padding:20px; " class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div align="center">
+                                <h2 style="background-color:transparent; ">Subscribe To our Newsletter</h2>
+                            </div> 
+                                <div align="center">
+                                   <input class="textbox form-group" style="" type="text" placeholder="Please Enter Your Email Address"> <button style="background-color: #00bff3;width: 90px" type="submit" class="btn btn-motive">Subscribe</button>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </form>
+
+            <!--first section row-->
+            <div class="row" style="padding: 20px;">
+              <!--first column start-->
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div style="padding-right:20px;padding-left: 20px;border-right:2px solid white; ">
+                            <div  style="border-bottom:2px solid white"> <h2 class="ct-footer-list-header">
+                              Who is it For
+                            </h2></div>
+                        <p style="color:white;padding-top: 15px">We cater to business and corporate community, high school or college students and all like-minded people that are driven to attain their fitness goals in an exclusive environment. Every square inch of our facility is dedicated to getting you ideally fit, strong, healthy and mentally tough to face the challenges of everyday life.
+                           </p>
+
+<br><br><br>
+                           </div>
+              </div>
+              <!-- first  coloumn end-->
+              <!-- Second  coloumn start-->
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div style="padding-right:20px;padding-left: 20px;border-right:2px solid white; ">
+                            <div  style="border-bottom:2px solid white"> <h2 class="ct-footer-list-header">
+                              Who is it For
+                            </h2></div>
+                        <p style="color:white;padding-top: 15px">We cater to business and corporate community, high school or college students and all like-minded people that are driven to attain their fitness goals in an exclusive environment. Every square inch of our facility is dedicated to getting you ideally fit, strong, healthy and mentally tough to face the challenges of everyday life.
+                           </p>
+
+<br><br><br>
+
+
+                           </div>
+              </div>
+              <!-- Second  coloumn end-->
+                <!-- Third  coloumn start-->
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div style="padding-right:20px;padding-left: 20px; ">
+                            <div  style="border-bottom:2px solid white"> <h2 class="ct-footer-list-header">
+                              Membership
+                            </h2></div>
+                       <div style="color:white"><br>
+                      <div><a href="aboutus.html">About us</a></div><br>
+                      <div><a href="Eproject.PDF">Download our info PDF</a></div><br>
+                       <div><a href="feedback.html">Feedback</a></div><br>
+                      <div><a href="form.html">Corporate memberships</a></div><br>
+                      <div><a href="privacypolicy.html">Privacy policy</a></div><br><br><br><br><br>
+
+                </div>
+                        </div>
+              </div>
+              <!-- Third  coloumn end-->
+
+            </div>
+            <!--first section row end-->
+           
+             <!-- Second section  start-->
+             <div class="row" style=";padding:20px;padding-top:30px; border-top: 1px solid rgba(255, 255, 255, 0.1)">
+               <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <p  style="color:white">
+                                Copyright © 2016 Trim-Gym.&nbsp;<a href="">Privacy Policy</a>
+                            </p>
+                          
+              </div>
+              <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div style=";color: white;text-decoration: none" class="row"></div>
+
+            <div class="box-social box-social-2020 mt-3 mb-5 border-0">
+      <ul class="my-2 w-100 list-unstyled d-flex justify-content-around align-items-center">
+        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="https://twitter.com/" aria-label="Solodev Twitter Sidenavigation"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="http://www.facebook.com/" target="_blank" aria-label="Solodev Facebook Sidenavigation"><i class="fab fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
+        <li class="col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="https://www.youtube.com/" target="_blank" aria-label="Solodev LinkedIn Sidenavigation"><i class="fab fa-youtube fa-lg"></i></a></li>
+        <li class="-col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="http://instagram.com/" target="_blank" aria-label="Solodev Github Sidenavigation"><i class="fab fa-instagram fa-lg"></i></a></li>
+      </ul>
+
+            </div>
+              </div>
+             
+             </div>
+             <!--second section end-->
+
+
+
+</footer>
+</div>
+</body>
+
+
+</html>
