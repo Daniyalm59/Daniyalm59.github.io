@@ -267,35 +267,92 @@
   <!-- Advertise section end-->
 </div><br>
 	
-<div class="container">
-<div class="row">
-<div class="col-xs-12 col-sm-12">
-
-<div class="carousel js-flickity " 
-data-flickity-options='{	"prevNextButtons": false, 
-"autoPlay": 1500,
-"pageDots": false,
-"wrapAround": true,
-"setGallerySize": true,
-"percentPosition": true, 
-"setGallerySize": false }'>
-<div class="carousel-cell"><img class="carousel-image" src=".png" alt=""></div>
-<div class="carousel-cell"><img class="carousel-image" src="smg1.png" alt=""></div>
-<div class="carousel-cell"><img class="carousel-image" src="smg2.png" alt=""></div>
-<div class="carousel-cell"><img class="carousel-image" src="smg3.png" alt=""></div>
-<div class="carousel-cell"><img class="carousel-image" src="smg4.png" alt=""></div>
-<div class="carousel-cell"><img class="carousel-image" src="smg5.png" alt=""></div>
-<div class="carousel-cell"><img class="carousel-image" src="smg6.png" alt=""></div>
-<div class="carousel-cell"><img class="carousel-image" src="smg7.png" alt=""></div>
-<div class="carousel-cell"><img class="carousel-image" src="smg8.png" alt=""></div>
-
+<div class="demo-row">
+<div class="container" id="id-sponsors">
+  <div class="text-center">
+  <h2 style="margin:20px 0;color:#fff;">Platinum Sponsors</h2>
+</div>
+<div id="sponsor-carousel" class="carousel slide" data-ride="carousel"> 
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="row">
+        <div class="col-sm-3 col-xs-6">
+          <div class="sponsor-feature"><img alt="" src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/nucor-logo.svg" style="width: 200px;" /></div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="sponsor-feature"><img alt="" src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logo-mil.png" style="width: 155px;" /></div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="sponsor-feature"><img alt="" src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logo-timberline.jpg" style="width: 200px;" /></div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="sponsor-feature"><img alt="" src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logo-ppg.jpg" style="width: 200px;" /></div>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="row">
+        <div class="col-sm-3 col-xs-6">
+          <div class="sponsor-feature"><img alt="" src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logos/logo1.jpg" style="width: 160px;" /></div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="sponsor-feature"><img alt="" src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logos/logo2.jpg" style="width: 160px;" /></div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="sponsor-feature"><img alt="" src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logos/logo3.jpg" style="width: 160px;" /></div>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="sponsor-feature"><img alt="" src="https://itagroup.hs.llnwd.net/o40/csg/pse-demo/channel-incentive/logos/logo4.jpg" style="width: 160px;" /></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 </div>
 
+	<style>
+		.demo-row {
+  background-color: #333;
+  padding: 50px 0;
+}
 
 
-</div>
-</div>
-</div>
+/*Implement*/
+.sponsor-feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+#id-sponsors .carousel {
+    margin-bottom: 20px;
+}
+#id-sponsors .item {
+    padding-bottom: 20px;
+}
+#id-sponsors .carousel-indicators {
+    bottom: -25px;
+}
+	</style>
+	<script>
+		$('#sponsor-carousel').carousel({
+  interval: 3000,
+  cycle: true
+}); 
+	</script>
 
 <!--Why Choose us-->
 <br><br>
